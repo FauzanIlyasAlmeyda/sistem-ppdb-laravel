@@ -119,3 +119,6 @@ Route::get('/pendaftaran', [PendaftaranController::class, 'create'])
 
 Route::post('/pendaftaran', [PendaftaranController::class, 'store'])
     ->name('pendaftar.store');
+
+
+    
